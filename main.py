@@ -1,9 +1,10 @@
 from tkinter import *
 from winsound import *
 
-
+"""
 def loop(file):
     PlaySound(file, SND_LOOP)
+"""
 
 
 def play1():
@@ -59,8 +60,8 @@ root = Tk()
 # Rename window
 root.title("Soundboard")
 
-label = Label(root, text="Welcome to the soundboard!").grid(row=0, column=1, columnspan=3, pady=10)
-loop_btn = Button(height=3, width=15, text="Loop").grid(row=0, column=0)
+label = Label(root, text="Welcome to the soundboard!").grid(row=0, column=0, columnspan=4, pady=10)
+# loop_btn = Button(height=3, width=15, text="Loop").grid(row=0, column=0)
 
 # Create buttons
 btn1 = Button(height=5, width=15, command=play1)

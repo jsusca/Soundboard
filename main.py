@@ -66,6 +66,7 @@ root.title("Soundboard")
 label = Label(root, text="Welcome to the soundboard!")
 label.grid(row=0, column=1, columnspan=3, pady=10)
 
+# Create loop button
 loop_btn = Button(height=3, width=15, text="Loop", relief="raised", command=toggle)
 loop_btn.grid(row=0, column=0, pady=3, padx=2)
 
@@ -103,4 +104,3 @@ btn12.grid(row=3, column=3, padx=2, pady=2)
 
 root.mainloop()
 
-print(loop_btn.config("relief")[-1])

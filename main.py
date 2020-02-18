@@ -10,7 +10,10 @@ def toggle():
 
 
 def play1():
-    PlaySound("Sounds/DrumKit.wav", SND_FILENAME | SND_ASYNC)
+    if loop_btn.config("relief")[-1] == "sunken":
+        PlaySound("Sounds/DrumKit.wav", SND_FILENAME | SND_ASYNC | SND_LOOP)
+    else:
+        PlaySound("Sounds/DrumKit.wav", SND_FILENAME | SND_ASYNC)
 
 
 def play2():

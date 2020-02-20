@@ -14,47 +14,80 @@ def play1():
 
 
 def play2():
-    PlaySound("Sounds/Snare.wav", SND_FILENAME | SND_ASYNC)
+    if loop_btn.config("relief")[-1] == "sunken":
+        PlaySound("Sounds/Snare.wav", SND_FILENAME | SND_ASYNC | SND_LOOP)
+    else:
+        PlaySound("Sounds/Snare.wav", SND_FILENAME | SND_ASYNC)
 
 
 def play3():
-    PlaySound("Sounds/DrumKit2.wav", SND_FILENAME | SND_ASYNC)
+    if loop_btn.config("relief")[-1] == "sunken":
+        PlaySound("Sounds/DrumKit2.wav", SND_FILENAME | SND_ASYNC | SND_LOOP)
+    else:
+        PlaySound("Sounds/DrumKit2.wav", SND_FILENAME | SND_ASYNC)
 
 
 def play4():
-    PlaySound("Sounds/DrumLoop.wav", SND_FILENAME | SND_ASYNC)
+    if loop_btn.config("relief")[-1] == "sunken":
+        PlaySound("Sounds/DrumLoop.wav", SND_FILENAME | SND_ASYNC | SND_LOOP)
+    else:
+        PlaySound("Sounds/DrumLoop.wav", SND_FILENAME | SND_ASYNC)
 
 
 def play5():
-    PlaySound("Sounds/BassDrum.wav", SND_FILENAME | SND_ASYNC)
+    if loop_btn.config("relief")[-1] == "sunken":
+        PlaySound("Sounds/BassDrum.wav", SND_FILENAME | SND_ASYNC | SND_LOOP)
+    else:
+        PlaySound("Sounds/BassDrum.wav", SND_FILENAME | SND_ASYNC)
 
 
 def play6():
-    PlaySound("Sounds/HHSuperShort.wav", SND_FILENAME | SND_ASYNC)
+    if loop_btn.config("relief")[-1] == "sunken":
+        PlaySound("Sounds/HHSuperShort.wav", SND_FILENAME | SND_ASYNC | SND_LOOP)
+    else:
+        PlaySound("Sounds/HHSuperShort.wav", SND_FILENAME | SND_ASYNC)
 
 
 def play7():
-    PlaySound("Sounds/ShortSnare.wav", SND_FILENAME | SND_ASYNC)
+    if loop_btn.config("relief")[-1] == "sunken":
+        PlaySound("Sounds/ShortSnare.wav", SND_FILENAME | SND_ASYNC | SND_LOOP)
+    else:
+        PlaySound("Sounds/ShortSnare.wav", SND_FILENAME | SND_ASYNC)
 
 
 def play8():
-    PlaySound("Sounds/ClosedHihat.wav", SND_FILENAME | SND_ASYNC)
+    if loop_btn.config("relief")[-1] == "sunken":
+        PlaySound("Sounds/ClosedHihat.wav", SND_FILENAME | SND_ASYNC | SND_LOOP)
+    else:
+        PlaySound("Sounds/ClosedHihat.wav", SND_FILENAME | SND_ASYNC)
 
 
 def play9():
-    PlaySound("Sounds/MBase.wav", SND_FILENAME | SND_ASYNC)
+    if loop_btn.config("relief")[-1] == "sunken":
+        PlaySound("Sounds/MBase.wav", SND_FILENAME | SND_ASYNC | SND_LOOP)
+    else:
+        PlaySound("Sounds/MBase.wav", SND_FILENAME | SND_ASYNC)
 
 
 def play10():
-    PlaySound("Sounds/TranceBass.wav", SND_FILENAME | SND_ASYNC)
+    if loop_btn.config("relief")[-1] == "sunken":
+        PlaySound("Sounds/TranceBass.wav", SND_FILENAME | SND_ASYNC | SND_LOOP)
+    else:
+        PlaySound("Sounds/TranceBass.wav", SND_FILENAME | SND_ASYNC)
 
 
 def play11():
-    PlaySound("Sounds/MiniKickLoop.wav", SND_FILENAME | SND_ASYNC)
+    if loop_btn.config("relief")[-1] == "sunken":
+        PlaySound("Sounds/MiniKickLoop.wav", SND_FILENAME | SND_ASYNC | SND_LOOP)
+    else:
+        PlaySound("Sounds/MiniKickLoop.wav", SND_FILENAME | SND_ASYNC)
 
 
 def play12():
-    PlaySound("Sounds/DrumKit3.wav", SND_FILENAME | SND_ASYNC)
+    if loop_btn.config("relief")[-1] == "sunken":
+        PlaySound("Sounds/DrumKit3.wav", SND_FILENAME | SND_ASYNC | SND_LOOP)
+    else:
+        PlaySound("Sounds/DrumKit3.wav", SND_FILENAME | SND_ASYNC)
 
 
 # Create blank window

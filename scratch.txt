@@ -1,0 +1,1 @@
+- If sound is playing, its pad should be sunken. If sunken pad is pressed, its sound should stop playing
